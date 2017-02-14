@@ -7,30 +7,36 @@ html,body{
 	margin: 0px;
 	padding:0px;
 	box-sizing:border-box!important;
-
+  
+}
+body{
+  position:relative;
 }
 
-                                         /*HEADER SECTION START*/
+                                       /*HEADER SECTION START*/
 
+.affix{
+  top:0px;
+  z-index:9999!important;
+  width:100%;
+}
 nav{
-    background-color: #227b88!important;
-    /*box-shadow: 0px 2px 2px 0px #227b88;*/
-    border: none!important;
-    height:70px; 
+  background-color: #227b88!important;
+  border: none!important;
+  height:70px;
 }
 .navbar{
 	border-radius:none!important;    
 }
 .navbar-brand{
- color:#fff!important;
- margin-top: 8px;
-font-family: 'Vidaloka', serif;
- font-size: 36px;
- line-height:0.8;
+  color:#fff!important;
+  margin-top: 8px;
+  font-family: 'Vidaloka', serif;
+  font-size: 30px;
+  line-height:0.7;
 }
 .nav>li{
-	/*background-color:red;*/
-	padding: 0px 0px 10px 0px!important;
+	padding: 0px 0px 0px 0px!important;
 }
 .nav>li>a{
   color:#fff!important;
@@ -39,58 +45,48 @@ font-family: 'Vidaloka', serif;
   font-size: 16px;
   font-family: 'Philosopher', sans-serif;
 }
-
 .nav>li>a:hover{
-  /*border-bottom:#fff!important;*/
-  
   background-color:#227b88!important;
-  /*border: 2px solid black!important;*/
 }
 .nav>li>a:focus{
   background-color:#227b88!important;
   border: none!important;
 }
-
 
                                          /*HEADER SECTION END*/
 
 
-
-
-
-
-
                                     /* MEDIA QUERIES START */
-                                    
-@media only screen  and (max-width:768px){
-    #owl-demo .item img{
-        height:615px!important;
-    }
-    .icon-bar{
-    	color:#fff!important;
-    	background-color: #fff!important;
-    	margin:10px 0px 0px 0px; 
-    }
-    nav>ul{
-    	background-color:#227b88!important;
-    }
-    nav>li>{
-    	border:2px solid black;
-    }
-    nav>li>a{
-     color:#227b88!important;
-     background-color:#227b88!important;
-     border: none!important;
-     margin-top: 10px;
-     font-size: 16px;
-     font-family: 'Philosopher', sans-serif;
-}
+                                   
 
-.nav>li>a:hover{
-  /*border-bottom:#fff!important;*/
-  
-  /**/
-  /*border: 2px solid black!important;*/
+@media only screen  and (max-width:768px){
+  nav{
+    height:auto;
+  }  
+  #owl-demo .item img{
+    height:615px!important;
+  }
+  .icon-bar{
+    color:#fff!important;
+    background-color: #fff!important;
+    margin:5px 0px 0px 0px; 
+  }
+  .navbar-brand{
+  margin-top: 5px;
+  font-size: 28px;
+  }
+  nav>li>{
+    border:2px solid black;
+  }
+  nav>li>a{
+    color:#227b88!important;
+    background-color:#227b88!important;
+    border: none!important;
+  }
+  .nav>li>a:hover{
+    color:#227b88!important;
+    background-color:#fff!important;
+    transition-duration:0.5s; 
 }
 .nav>li>a:focus{
   background-color:#227b88!important;
@@ -98,6 +94,11 @@ font-family: 'Vidaloka', serif;
 }
 
 
+/* Underline From Center */
+.hvr-underline-from-center {
+  display: hidden;
+  transform: none!important;
+}
 }
 
 @media only screen  and (max-width:480px){
@@ -106,6 +107,16 @@ font-family: 'Vidaloka', serif;
     }
 
 @media only screen  and (max-width:320px){
+  
+  .icon-bar{
+    color:#fff!important;
+    background-color: #fff!important;
+    margin:2px 0px 0px 0px; 
+  }
+  .navbar-brand{
+  margin-top: 5px;
+  font-size: 20px;
+  }
     #owl-demo .item img{
         height:300px!important;
     }

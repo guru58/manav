@@ -51,7 +51,7 @@
 
     
                         <!-- MENU SECTION START -->
-    <nav class="navbar">
+    <nav class="navbar" data-spy="affix" data-offset-top="662">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -78,7 +78,27 @@
 
 
  <div style="height:1000px;">
-    	
+    	<div class="container">
+            <div class="col-sm-4">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos harum odit autem mollitia velit eligendi optio sit neque aut eveniet, inventore nisi, consequatur error sapiente ab in officia qui. Explicabo.
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos sequi officia quis nisi blanditiis molestias ducimus fugiat odit deleniti eligendi exercitationem iure, dicta, nesciunt consequuntur culpa odio atque! Nulla, ut!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A non, nisi, est omnis veritatis enim expedita fuga nulla illo! Ea blanditiis quod commodi iure excepturi cumque suscipit, et sint reiciendis.
+            </div>
+            <div class="col-sm-4">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, qui nesciunt aspernatur corporis ad praesentium, hic pariatur fugit dicta cum, laboriosam repellendus totam, soluta? Cum ab et dolor consectetur perferendis.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos harum odit autem mollitia velit eligendi optio sit neque aut eveniet, inventore nisi, consequatur error sapiente ab in officia qui. Explicabo.
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos sequi officia quis nisi blanditiis molestias ducimus fugiat odit deleniti eligendi exercitationem iure, dicta, nesciunt consequuntur culpa odio atque! Nulla, ut!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A non, nisi, est omnis veritatis enim expedita fuga nulla illo! Ea blanditiis quod commodi iure excepturi cumque suscipit, et sint reiciendis.
+            
+            </div>
+            <div class="col-sm-4">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, autem, aliquam. Hic impedit fugiat, minima voluptatem earum mollitia beatae aspernatur praesentium consequatur reprehenderit, assumenda possimus ad at id, consectetur rerum.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos harum odit autem mollitia velit eligendi optio sit neque aut eveniet, inventore nisi, consequatur error sapiente ab in officia qui. Explicabo.
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos sequi officia quis nisi blanditiis molestias ducimus fugiat odit deleniti eligendi exercitationem iure, dicta, nesciunt consequuntur culpa odio atque! Nulla, ut!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A non, nisi, est omnis veritatis enim expedita fuga nulla illo! Ea blanditiis quod commodi iure excepturi cumque suscipit, et sint reiciendis.
+            
+            </div>   
+        </div>
     </div>
 
 
