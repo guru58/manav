@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="css/owl.theme.css" />
     <link rel="stylesheet" href="css/owl.transitions.css" />
     <link rel="stylesheet" href="css/animate.css" />
-    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet" />
-    <link rel="stylesheet" href="css/hover-min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Philosopher|Old+Standard+TT|Vidaloka" rel="stylesheet" />
+    <link rel="stylesheet" href="css/hover.css" />
     <link rel="stylesheet" href="css/style.css" />
     <style>
         #owl-demo .item{
@@ -21,7 +21,7 @@
         #owl-demo .item img{
             display: block;
             width: 100%;
-            height:662px!important;
+            height:662px;
             
         }
     </style>
@@ -32,6 +32,7 @@
 <body>
  
                         <!-- HEADER START HERE  -->
+
 
                         <!-- CAROUSEL START HERE  -->
     
@@ -44,17 +45,41 @@
             <img class="img-responsive" src="http://wallpapercave.com/wp/wp1837609.jpg" alt="ManavElectricals">
         </div>
     </div>
-    <div style="height:500px;">
-    	
-    </div>
+   
     
                             <!-- CAROUSEL END HERE -->
 
+    
+                        <!-- MENU SECTION START -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-brand" href="#">Manav Electricals</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a  class="hvr-underline-from-center " href="#">Home</a></li>
+                    <li><a  class="hvr-underline-from-center " href="#">About</a></li>
+                    <li><a  class="hvr-underline-from-center " href="#">Services</a></li>
+                    <li><a  class="hvr-underline-from-center " href="#">Products</a></li>
+                    <li><a  class="hvr-underline-from-center " href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>  
+                        <!-- MENU SECTION END  -->
 
                                <!-- HEADER END HERE -->
 
 
-
+ <div style="height:1000px;">
+    	
+    </div>
 
 
                                 <!-- SCRIPT START HERE  -->
