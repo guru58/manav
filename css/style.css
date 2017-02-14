@@ -12,6 +12,9 @@ html,body{
 body{
   position:relative;
 }
+.row{
+  margin: 0px!important;
+}  
 
                                        /*HEADER SECTION START*/
 
@@ -31,7 +34,7 @@ nav{
 .navbar-brand{
   color:#fff!important;
   margin-top: 8px;
-  font-family: 'Vidaloka', serif;
+ font-family: 'Lobster Two', cursive;
   font-size: 30px;
   line-height:0.7;
 }
@@ -53,7 +56,89 @@ nav{
   border: none!important;
 }
 
-                                         /*HEADER SECTION END*/
+                                         /*HEADER SECTION END & ABOUT SECTION START*/
+#rowAbout{
+  /*height: 400px;*/
+
+box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+
+  /*border: 1px solid black;*/
+  margin: 0px 0px 0px 0px;
+}
+#rowAbout .row .container{
+  /*border: 1px solid black;*/
+}
+
+#rowAbout .row .container .aboutPhoto{
+  /*border: 1px solid black;*/
+  /*height: 400px;*/
+}
+#rowAbout .row .container .aboutPhoto img{
+height:350px;
+margin: 20px 0px;
+box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+
+}
+
+
+#rowAbout .row .container .aboutInfo{
+  /*border: 1px solid black;*/
+  height: 400px;
+}
+#rowAbout .row .container .aboutInfo h1{
+ font-family: 'Philosopher', sans-serif;
+}
+#rowAbout .row .container .aboutInfo p{
+ font-family: 'Abhaya Libre', serif;
+ line-height: 1.8;
+ padding: 10px;
+ text-align: justify;
+}
+
+                                  /* ABOUT SECTION END & FORM SECTION START */
+#rowForm{
+  background-image: url("https://www.walldevil.com/wallpapers/a66/backgrounds-twitter-retouch-color-industrial-electrical-computer.jpg");
+  height:350px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: cover;
+}
+#rowForm .rowShadow{
+  height:350px;
+  position: absolute;
+  background: #000;
+  opacity: 0.9;
+  width:100%;
+}
+.requestForm{
+  height:180px;
+  border: 1px solid white;
+  margin:85px 0px;
+  background-color:#fff;
+  /*padding:50px;*/
+  box-shadow: 0px 1px 1px 0px #fff;
+
+}
+.requestForm h1{
+ font-family: 'Philosopher', sans-serif;
+
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
                                     /* MEDIA QUERIES START */
@@ -92,22 +177,45 @@ nav{
   background-color:#227b88!important;
   border: none!important;
 }
-
-
-/* Underline From Center */
-.hvr-underline-from-center {
-  display: hidden;
-  transform: none!important;
+.hvr-underline-from-center:before {
+  display:none!important;
 }
+
+
+#rowForm{
+  height:auto;
+}
+#rowForm .rowShadow{
+  height:auto;
+  
+}
+
+.requestForm{
+  height:auto;
+  
+  margin:100px 0px;
+  background-color:#fff;
+  padding:10px 10px 20px 10px;
+}
+
 }
 
 @media only screen  and (max-width:480px){
     #owl-demo .item img{
         height:300px!important;
     }
+.hvr-underline-from-center:before {
+  display:none!important;
+}
+
+#rowAbout .row .container .aboutInfo{
+  /*border: 1px solid black;*/
+  height: 450px;
+}
+
+}
 
 @media only screen  and (max-width:320px){
-  
   .icon-bar{
     color:#fff!important;
     background-color: #fff!important;
@@ -120,6 +228,19 @@ nav{
     #owl-demo .item img{
         height:300px!important;
     }
+.hvr-underline-from-center:before {
+  display:none!important;
+}
+#rowAbout .row .container .aboutPhoto img{
+height:250px;
+margin: 20px 0px;
+box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+}
+
+#rowAbout .row .container .aboutInfo{
+  /*border: 1px solid black;*/
+  height: 700px;
+}
 
 }
 

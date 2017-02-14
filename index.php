@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/owl.theme.css" />
     <link rel="stylesheet" href="css/owl.transitions.css" />
     <link rel="stylesheet" href="css/animate.css" />
-    <link href="https://fonts.googleapis.com/css?family=Philosopher|Old+Standard+TT|Vidaloka" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Philosopher|Old+Standard+TT|Lobster+Two|Abhaya+Libre" rel="stylesheet" />
     <link rel="stylesheet" href="css/hover.css" />
     <link rel="stylesheet" href="css/style.css" />
     <style>
@@ -51,7 +51,8 @@
 
     
                         <!-- MENU SECTION START -->
-    <nav class="navbar" data-spy="affix" data-offset-top="662">
+
+    <nav class="navbar" data-spy="affix" data-offset-top="670">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -74,31 +75,77 @@
     </nav>  
                         <!-- MENU SECTION END  -->
 
-                               <!-- HEADER END HERE -->
+                        <!-- HEADER END HERE -->
+
+                        <!-- ABOUT SECION START -->
 
 
- <div style="height:1000px;">
-    	<div class="container">
-            <div class="col-sm-4">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos harum odit autem mollitia velit eligendi optio sit neque aut eveniet, inventore nisi, consequatur error sapiente ab in officia qui. Explicabo.
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos sequi officia quis nisi blanditiis molestias ducimus fugiat odit deleniti eligendi exercitationem iure, dicta, nesciunt consequuntur culpa odio atque! Nulla, ut!
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A non, nisi, est omnis veritatis enim expedita fuga nulla illo! Ea blanditiis quod commodi iure excepturi cumque suscipit, et sint reiciendis.
+<div id="rowAbout">
+    <div class="row">
+        <div class="container">
+            <div class="aboutPhoto col-sm-6 col-md-6">
+                <img class="img-responsive" src="http://www.amdelectrics.co.uk/wp-content/uploads/electrician3-700x300.jpg" alt="">
             </div>
-            <div class="col-sm-4">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, qui nesciunt aspernatur corporis ad praesentium, hic pariatur fugit dicta cum, laboriosam repellendus totam, soluta? Cum ab et dolor consectetur perferendis.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos harum odit autem mollitia velit eligendi optio sit neque aut eveniet, inventore nisi, consequatur error sapiente ab in officia qui. Explicabo.
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos sequi officia quis nisi blanditiis molestias ducimus fugiat odit deleniti eligendi exercitationem iure, dicta, nesciunt consequuntur culpa odio atque! Nulla, ut!
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A non, nisi, est omnis veritatis enim expedita fuga nulla illo! Ea blanditiis quod commodi iure excepturi cumque suscipit, et sint reiciendis.
-            
+            <div class="aboutInfo col-sm-6 col-md-6">
+                <h1 class="wow fadeInRight">About Us</h1>
+                <hr/>
+                <p class="wow fadeInRight">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ipsum iusto neque assumenda earum! Soluta hic voluptatum, rerum, molestias dolorem sapiente assumenda laborum accusamus cupiditate iusto labore possimus minus eligendi.    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt optio quasi quo veniam ea excepturi eum voluptate iusto voluptates esse. Ratione iure quo dolorum, est possimus illo soluta fugiat accusantium?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta sunt cum reiciendis laudantium placeat et, quisquam qui rem consectetur exercitationem, voluptas quam blanditiis assumenda. Quas quidem a voluptate ullam excepturi?</p>
             </div>
-            <div class="col-sm-4">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, autem, aliquam. Hic impedit fugiat, minima voluptatem earum mollitia beatae aspernatur praesentium consequatur reprehenderit, assumenda possimus ad at id, consectetur rerum.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos harum odit autem mollitia velit eligendi optio sit neque aut eveniet, inventore nisi, consequatur error sapiente ab in officia qui. Explicabo.
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos sequi officia quis nisi blanditiis molestias ducimus fugiat odit deleniti eligendi exercitationem iure, dicta, nesciunt consequuntur culpa odio atque! Nulla, ut!
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A non, nisi, est omnis veritatis enim expedita fuga nulla illo! Ea blanditiis quod commodi iure excepturi cumque suscipit, et sint reiciendis.
-            
-            </div>   
         </div>
+    </div>
+</div>
+
+
+                     <!-- ABOUT SECTION END -->
+
+<div id="rowForm">
+    <div class="rowShadow">
+    </div>
+    <div class="row">
+        <div class="container">
+            <div class="requestForm col-sm-12 col-md-12">
+            <h1>Request Service</h1><hr>
+                <form class="form-inline">
+
+                    <div class="form-group">
+                        <!-- <label for="name">Name:</label> -->
+                        <input type="name" class="form-control" id="name" placeholder="Enter name">
+                    </div>
+                    &nbsp;&nbsp;&nbsp;
+                    <div class="form-group">
+                        <!-- <label for="email">Email:</label> -->
+                        <input type="email" class="form-control" id="email" placeholder="Enter email">
+                    </div>
+                    &nbsp;&nbsp;&nbsp;
+                    <div class="form-group">
+                        <!-- <label for="pwd">Contact No.:</label> -->
+                        <input type="password" class="form-control" id="pwd" placeholder="Enter contact no.">
+                    </div>
+                   &nbsp;&nbsp;&nbsp;
+                    <div class="form-group">
+                        <!-- <label for="pwd">Contact No.:</label> -->
+                    <select name="" id="" class="form-control">
+                        <option value="commerical services">Commercial Services</option>
+
+                        <option value="commerical services">Industrial Services</option>
+
+                        <option value="commerical services">Residetal Services</option>
+
+                        <option value="commerical services">Electrical Services</option>
+                    </select>
+                    </div>
+                    &nbsp;&nbsp;&nbsp;
+                    <button type="submit" class="btn btn-info">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+ <div style="height:200px;margin-top:100px;">
+    	
     </div>
 
 
